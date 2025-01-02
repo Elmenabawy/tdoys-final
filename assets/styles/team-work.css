@@ -1,0 +1,63 @@
+@import url(./style.css);
+.head-section {
+    position: relative;
+    height: 70vh;
+    background-image: url(../img/team-work-head.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.head-section .container {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+.head-section h2{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50.4px;
+}
+
+
+/*---------------------*/
+
+/*-------our-team-------*/
+
+
+.our-team .team-member{
+    border-radius: 24px;
+    border: 1px solid rgba(61, 152, 219, 0.4);
+
+}
+
+.team-member-img{
+    padding: 10px 8px 0 10px;
+    overflow: hidden;
+}
+
+.our-team .team-member-img img {
+    width: 210px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    background-color: var(--main-blue-transparent);
+    border-radius: 24px;
+}
+
+.our-team .member-info{
+    margin-top: 24px;
+}
+
+.our-team .member-info p{
+    font-weight: 400;
+    size: 14px;
+    line-height: 16.8px;
+    color: rgba(61, 152, 219, 1);
+}
+.our-team .member-info h4{
+    font-weight: 500;
+    font-size:20px ;
+}
+
