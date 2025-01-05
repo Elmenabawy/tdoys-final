@@ -10,11 +10,10 @@
 }
 
 /* ----------setting up styles------ */
-.wrapper {
-    /* width: 90% !important; */
+/* .wrapper {
     padding: 140px;
     margin: 0 auto !important;
-}
+} */
 
 li {
     list-style: none;
@@ -26,6 +25,14 @@ a {
 
 .bg-main-blue {
     background-color: var(--main-blue);
+}
+
+.main-blue{
+        color: var(--main-blue)
+}
+
+.main-paragraph{
+    color: var(--main-paragraph);
 }
 
 .faded {

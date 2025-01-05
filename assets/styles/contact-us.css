@@ -1,0 +1,91 @@
+@import url(../../style.css);
+
+.head-section {
+    position: relative;
+    height: 70vh;
+    background-image: url(../img/contact-us.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.head-section .container {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+.head-section h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50.4px;
+}
+
+
+/*------------------*/
+
+/*-------contact-us-main--------*/
+.contact-us-main{
+    background-image: radial-gradient(rgba(61, 152, 219, 0.08), #ffffff);
+}
+
+.contact-us-main .head{
+}
+
+.contact-us-main .section-heading-black h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.contact-us-main .section-heading-black::before{
+    width: 224px;
+    height: 3px;
+    border-radius: 11px;
+}
+
+.contact-us-main .section-paragraph p {
+    color: rgba(100, 101, 117, 1) !important;
+}   
+
+/*---------------*/
+
+/*---------Form--------*/
+.contact-us-form-section {
+    margin-top: 50px;
+    background-image: url(../img/map.png);
+    background-size: cover;
+    object-fit: center;
+}
+
+.contact-us-form {
+    padding: 40px;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 0px 4px 40px 0px rgba(146, 154, 165, 0.2);
+    /* backdrop-filter: blur(30px); */
+    /* color: var(--main-white); */
+}
+
+.contact-us-form .form-control {
+    /* background-color: var(--main-white) ; */
+    border: 0;
+    /* color: var(--main-paragraph) !important; */
+}
+.contact-us-form label{
+    color: black;
+}
+
+.contact-us-form .form-control::placeholder {
+    color: rgba(176, 176, 176, 1) !important;
+}
+
+.contact-us-form input{
+    background-color: #ffffff !important;
+    border: 1px solid #d9d9d9 !important;
+}
+
+.contact-us-form .form-control:focus {
+    box-shadow: none;
+    border: var(--main-white) 1px solid;
+}
