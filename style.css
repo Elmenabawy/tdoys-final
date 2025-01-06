@@ -10,10 +10,10 @@
 }
 
 /* ----------setting up styles------ */
-/* .wrapper {
-    padding: 140px;
-    margin: 0 auto !important;
-} */
+.wrapper {
+    padding-inline:  140px;
+    margin-inline: auto !important;
+}
 
 li {
     list-style: none;
@@ -33,6 +33,10 @@ a {
 
 .main-blue-transparent{
     color : var(--main-blue-transparent)
+}
+
+.bg-blue-transparent{
+    background-color: var(--main-blue-transparent);
 }
 
 .main-paragraph{
